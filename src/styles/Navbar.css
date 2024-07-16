@@ -1,0 +1,33 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo2 img {
+    max-height: 50px; /* Ajuste conforme necessário */
+  }
+  
+  .nav-buttons {
+    display: flex;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: #1877f2; /* Cor do texto */
+    padding: 10px 15px;
+    border: 1px solid #1877f2; /* Bordas */
+    border-radius: 5px;
+    margin-left: 10px; /* Espaçamento entre botões */
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #1877f2; /* Cor de fundo ao passar o mouse */
+    color: white; /* Cor do texto ao passar o mouse */
+  }
+  

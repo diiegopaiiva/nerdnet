@@ -1,0 +1,42 @@
+/* src/components/Home.css */
+.home {
+    max-width: 400px;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-form button {
+    background-color: #1877f2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #155dbb;
+  }
+  
+  .signup-prompt {
+    margin-top: 20px;
+  }
+  
